@@ -70,6 +70,12 @@ nav a {
 	justify-content: center;
 	flex-direction: columm;
 	height: 600px;
+	background-color: rgba(232,217,217,.3);
+}
+
+#section1 h1 {
+	font-size: 50px;
+	
 }
 
 #section1 article {
@@ -85,6 +91,92 @@ nav a {
 	text-align: center;
 	
 }
+
+#section2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 1rem 1rem 1rem 1rem;
+	padding: 1rem 0 0 0;
+	
+	
+}
+
+#section2 h2 {
+	background-color: rgba(255,204,53,.4);
+}
+
+#section2 p {
+	width: 40%;
+	text-align: center;
+	
+}
+
+.triangle-hexagon {
+	width: 300px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+	
+#section3 {
+		display: flex;
+		justify-content: space-around;
+		flex-direction: row;
+		margin: 1rem 1rem 1rem 1rem;
+		padding: 1rem 0 0 0;
+	
+}
+
+#section3 img {
+		width: 40px;
+}
+
+#section3 h3 {
+	color: red;
+	border: 1px solid red;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	
+}
+
+#section3 p {
+	border-color: red;
+	border: 1px 1px 1px 1px;
+	width: 200px;
+	
+	
+}
+
+.section3-button {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	width: 300px;
+	height: 40px;
+	font-size: 0.8em;
+}
+
+.section3-align {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.section3-align a {
+	justify-content: center;
+}
+
+
+
+
 
 	
 	
