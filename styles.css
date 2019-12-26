@@ -89,6 +89,11 @@ nav a {
 	color: white;
 	text-decoration: none;
 	text-align: center;
+	box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+	margin: 10rem 5rem 10rem 0;
+	border: 10rem 5rem 10rem 0;
+		
+	
 	
 }
 
@@ -97,14 +102,18 @@ nav a {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	margin: 1rem 1rem 1rem 1rem;
-	padding: 1rem 0 0 0;
+	margin: 1rem 0 1rem 0;
+	padding: 1rem 0 1rem 0;
+	
 	
 	
 }
 
 #section2 h2 {
+	display:flex;
 	background-color: rgba(255,204,53,.4);
+	width: 600px;
+	justify-content: center;
 }
 
 #section2 p {
@@ -124,8 +133,8 @@ nav a {
 		display: flex;
 		justify-content: space-around;
 		flex-direction: row;
-		margin: 1rem 1rem 1rem 1rem;
-		padding: 1rem 0 0 0;
+		margin: 0 10rem 0 10rem;
+		padding: 0 10rem 0 10rem;
 	
 }
 
@@ -134,7 +143,7 @@ nav a {
 }
 
 #section3 h3 {
-	color: red;
+	color: #ED1C24;
 	border: 1px solid red;
 	display: flex;
 	align-items: center;
@@ -152,10 +161,6 @@ nav a {
 }
 
 .section3-button {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
 	background-color: black;
 	color: white;
 	text-decoration: none;
@@ -164,15 +169,15 @@ nav a {
 	font-size: 0.8em;
 }
 
-.section3-align {
+.section3-align a{
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
+	align-items: center;
+	box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+	
 }
 
-.section3-align a {
-	justify-content: center;
-}
 
 
 
