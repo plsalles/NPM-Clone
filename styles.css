@@ -35,17 +35,48 @@ nav a {
   margin-right: 1rem;
 }
 
+.header2 {
+	border: 1px solid red;
+}
+
 .npm-logo {
-  width: 50px;
-  margin-right: 1rem;
+ 
+  
+  width: 75px;
+  margin: 20px 20px 20px; 20px;
+}
+
+.search-icon {
+	background-color: rgba(0,0,0,.05);
+	margin: 25px 0 0 10px;
+	position: absolute;
+	
+}
+
+.div-inline {
+	display: inline;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+.container-test {
+	display: flex;
+	justify-content: space-around;
 }
 
 .search-bar {
 	background-color: rgba(0,0,0,.05);
 	color: rgba(0,0,0,.05);
-	width: 1500px;
-	margin: 0;
-	padding: 0;
+	width: 1400px;
+	height: 40px;
+	margin: 10px 0 10px 0;
+	border: 0;
+	padding: 0 0 0 0;
+	
+	
 	
 }
 
@@ -53,11 +84,34 @@ nav a {
 	background-color:#fb3e44;
 	color: white;
 	height: 40px;
-	width: 70px;
+	width: 120px;
+	margin: 10px 50px 10px 0;
+	padding: 0;
+	border: 0;
+	text-align: center;
+	
 
 }
 
-.header2 {}
+.join-button {
+	text-decoration: none;
+	color: black;
+	border: 1px solid black;
+	padding: 10px 30px 10px 30px;
+	background-color: white;
+	margin: 10px 0px 10px 0px;
+	text-align: center;
+
+}
+
+.login-button {
+	text-decoration: none;
+	color: black;
+	margin: 10px 10px 10px 40px;
+	padding: 10px 0 10px 0;
+	
+}
+	
 
 .header3{
 	display:flex;
@@ -68,11 +122,21 @@ nav a {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	flex-direction: columm;
+	flex-direction: column;
 	height: 600px;
 	background-color: rgba(232,217,217,.3);
+	margin: 1px solid black;
+	
 }
 
+.test {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	
+
+}
 #section1 h1 {
 	font-size: 50px;
 	
@@ -81,19 +145,37 @@ nav a {
 #section1 article {
 	width: 40%; 
 	font-size: 0.9em;
+	text-align: center;
 
 }
 
+.div-links {
+	margin: 30px;
+}
 .section1-seeplans-link {
 	background-color:#FB3B49;
 	color: white;
 	text-decoration: none;
 	text-align: center;
 	box-shadow: 8px 8px 0 rgba(251,59,73,.2);
-	margin: 10rem 5rem 10rem 0;
-	border: 10rem 5rem 10rem 0;
+	margin: 5px 100px 0 0;
+	padding: 10px 100px 10px 100px;
+	border: 20px;
+	font-weight: bold;
+	
 		
 	
+	
+}
+
+.section1-joinforfree-link {
+	background-color:white;
+	color: black;
+	text-decoration: none;
+	width: 400px;
+	font-weight: bold;
+	padding: 10px 100px 10px 100px;
+ 
 	
 }
 
@@ -127,22 +209,31 @@ nav a {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
+	margin: 60px;
 }
 	
-#section3 {
+.section3 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+
+#div1-section3 {
 		display: flex;
 		justify-content: space-around;
 		flex-direction: row;
-		margin: 0 10rem 0 10rem;
-		padding: 0 10rem 0 10rem;
+		margin: 0 10px 0 10px;
+		padding: 0 10px 0 10px;
+		width: 1500px;
 	
 }
 
-#section3 img {
+#div1-section3 img {
 		width: 40px;
 }
 
-#section3 h3 {
+#div1-section3 h3 {
 	color: #ED1C24;
 	border: 1px solid red;
 	display: flex;
@@ -152,7 +243,7 @@ nav a {
 	
 }
 
-#section3 p {
+#div1-section3 p {
 	border-color: red;
 	border: 1px 1px 1px 1px;
 	width: 200px;
@@ -161,22 +252,24 @@ nav a {
 }
 
 .section3-button {
+	margin: 100px 0 100px 0;
+}
+
+.section3-button a {
+	text-align: center;	
 	background-color: black;
-	color: white;
-	text-decoration: none;
 	width: 300px;
 	height: 40px;
 	font-size: 0.8em;
-}
-
-.section3-align a{
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	align-items: center;
 	box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+	text-decoration: none;
+	color: white;
+	padding: 15px 100px 15px 100px;
 	
 }
+
+
+
 
 
 
